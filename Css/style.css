@@ -107,10 +107,8 @@ body{
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    width: 50%;
+    width: 50%; /* Largura menor para centralizar */
     margin: 0 auto;
-    text-align: left;
     row-gap: 2rem;
 }
 
@@ -121,7 +119,8 @@ body{
 }
 
 .logo{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     float: left;
     margin-right: 30px;
 }
@@ -134,6 +133,7 @@ body{
     color: #fff;
 }
 
+/* Estilos Padrão (para desktop - Mobile First) */
 .flex-formation {
     margin-top: 14vh;
     margin-bottom: 14vh;
@@ -167,11 +167,6 @@ body{
     .certificates-container {
         gap: 1.5rem;
     }
-
-    .main{
-        width: 80%;
-        height: auto;
-    }
     
     .row-top,
     .row-bottom {
@@ -186,4 +181,14 @@ body{
         width: 80%;
         height: auto;
     }
+}
+
+
+@media (max-width: 440px) {
+    
+    .container-skills{
+        width: 80%;
+        height: auto;
+    }
+
 }
