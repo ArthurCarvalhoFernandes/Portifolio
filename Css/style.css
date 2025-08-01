@@ -183,7 +183,7 @@ body{
 }
 
 
-@media (min-width: 412px) and (max-width: 768px) {
+@media (min-width: 412px) and (max-width: 992px) {
     
     .type-text{
         width: 90%;
