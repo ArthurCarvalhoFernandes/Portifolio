@@ -186,10 +186,6 @@ body{
 
 @media (min-width: 412px) and (max-width: 768px) {
     
-    .container-skills {
-        width: 80%; 
-        height: auto;
-    }
     .cardskill {
         width: 100%;
         display: flex;
@@ -199,7 +195,7 @@ body{
 
     .logo {
         width: 100%; 
-        max-width: 250px;
+        max-width: 400px;
         float: none; 
         margin: 0 auto 20px auto; 
     }
