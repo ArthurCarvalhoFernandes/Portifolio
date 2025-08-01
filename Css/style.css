@@ -184,11 +184,28 @@ body{
 }
 
 
-@media (max-width: 440px) {
+@media (min-width: 412px) and (max-width: 768px) {
     
-    .container-skills{
-        width: 80%;
+    .container-skills {
+        width: 80%; 
         height: auto;
+    }
+    .cardsklill {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100%; 
+        max-width: 250px;
+        float: none; 
+        margin: 0 auto 20px auto; 
+    }
+
+    .flex-right {
+        text-align: center;
     }
 
 }
