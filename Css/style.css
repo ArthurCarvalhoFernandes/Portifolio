@@ -185,8 +185,12 @@ body{
 
 @media (min-width: 412px) and (max-width: 768px) {
     
+    .type-text{
+        width: 90%;
+    }
+
     .container-skills {
-        width: 50%; 
+        width: 80%; 
         height: auto;
     }
     .cardsklill {
